@@ -59,7 +59,7 @@ Dostoïevski, est un vœu esthétique, pas une thèse scientifique.
 ## Structure du projet
 
 ```
-e8-artwork-string-theory/
+e8-artwork-string-theory-2026/
 ├── la_beleco_savos_la_mondon.py   # l'œuvre finale
 ├── requirements.txt               # dépendances Python (numpy, matplotlib)
 └── output/                        # l'œuvre (PNG, SVG) et le diagramme
