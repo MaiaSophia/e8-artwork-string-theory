@@ -2,79 +2,77 @@
 
 ## *La beleco savos la mondon*
 
-Œuvre art-science exposée à l'**ISAP 2026, 13ᵉ Heidelberg Laureate Forum** :
+Art-science work exhibited at **ISAP 2026, 13th Heidelberg Laureate Forum**:
 👉 [demian-goos.de/isap-2026-13th-hlf/artworks/sophia-mai](https://demian-goos.de/isap-2026-13th-hlf/artworks/sophia-mai/)
 
 ![La beleco savos la mondon](output/Sophia_MAI_artwork.png)
 
-*La beleco savos la mondon* signifie « La beauté sauvera le monde » en
-espéranto : la phrase de Dostoïevski prêtée au prince Mychkine dans
-*L'Idiot*.
+*La beleco savos la mondon* means "Beauty will save the world" in
+Esperanto: Dostoevsky's phrase, attributed to Prince Myshkin in
+*The Idiot*.
 
-L'image montre E8 comme le **pont rêvé** entre les deux grandes théories de
-la physique, sans aucun texte hormis le titre :
+The image shows E8 as the **dreamed bridge** between the two great theories
+of physics, with no text other than the title:
 
-- **À gauche, la mécanique quantique** : l'atome, son noyau et ses orbites.
-- **Au centre, E8** : les 240 racines de E8 projetées sur le plan de
-  Coxeter.
-- **À droite, la relativité générale** : la grille d'espace-temps courbée
-  par une masse, une planète en orbite et un rayon de lumière dévié
-  (lentille gravitationnelle).
+- **On the left, quantum mechanics:** the atom, its nucleus and its orbits.
+- **In the centre, E8:** the 240 roots of E8 projected onto the Coxeter
+  plane.
+- **On the right, general relativity:** the space-time grid curved by a
+  mass, a planet in orbit and a deflected ray of light (gravitational
+  lensing).
 
-Un fil vibrant, comme une corde de guitare fixée aux deux bouts, traverse
-E8 et relie les deux mondes.
+A vibrating string, like a guitar string fixed at both ends, runs through
+E8 and links the two worlds.
 
 ## The change from a fragmented, divided understanding of the universe toward its dreamed unification
 
 ![The change from a fragmented, divided understanding of the universe toward its dreamed unification](output/Sophia_MAI_plot.png)
 
-Les forces forte, faible et électromagnétique se rapprochent quand
-l'énergie augmente. La gravité, elle, ne rejoint les autres que dans le
-rêve d'une théorie unifiée.
+The strong, weak and electromagnetic forces come closer together as energy
+increases. Gravity joins them only in the dream of a unified theory.
 
-## Le sens physique
+## The physical meaning
 
-La mécanique quantique et la relativité générale décrivent chacune leur
-domaine avec un succès expérimental extraordinaire, mais restent
-incompatibles à très petite échelle, là où la gravité devrait elle-même
-devenir quantique. Les concilier est le plus grand problème ouvert de la
-physique théorique.
+Quantum mechanics and general relativity each describe their own domain
+with extraordinary experimental success, yet they remain incompatible at
+very small scales, where gravity itself should become quantum. Reconciling
+them is the greatest open problem in theoretical physics.
 
-La **théorie des cordes hétérotique** est l'une des pistes : les particules
-y deviennent des cordes vibrantes, et l'un des modes de vibration est
-toujours le **graviton**. Sa cohérence mathématique impose aux 16
-dimensions internes la symétrie **E8 × E8** (ou SO(32) dans l'autre
-variante). E8, le plus grand groupe de Lie exceptionnel simple, apparaît
-ainsi au cœur de l'une des tentatives les plus ambitieuses d'unification.
+**Heterotic string theory** is one of the paths: particles become
+vibrating strings, and one of the vibration modes is always the
+**graviton**. Its mathematical consistency requires the 16 internal
+dimensions to carry the symmetry **E8 × E8** (or SO(32) in the other
+variant). E8, the largest exceptional simple Lie group, thus lies at the
+heart of one of the most ambitious attempts at unification.
 
-**Une quête, pas un fait établi.** Aucune prédiction de la théorie des
-cordes n'a encore été confirmée par l'expérience. Le titre, emprunté à
-Dostoïevski, est un vœu esthétique, pas une thèse scientifique.
+**A quest, not an established fact.** No prediction of string theory has
+yet been confirmed by experiment. The title, borrowed from Dostoevsky, is
+an aesthetic wish, not a scientific claim.
 
 > *Reconciling quantum mechanics and general relativity is physics'
 > greatest unsolved problem. Heterotic string theory (E8 × E8) is one
 > dreamed path toward unification — mathematically beautiful, but not yet
 > confirmed by experiment.*
 
-## Structure du projet
+## Project structure
 
 ```
 e8-artwork-string-theory-2026/
-├── la_beleco_savos_la_mondon.py   # l'œuvre finale
-├── requirements.txt               # dépendances Python (numpy, matplotlib)
-└── output/                        # l'œuvre (PNG, SVG) et le diagramme
+├── la_beleco_savos_la_mondon.py   # the final artwork
+├── requirements.txt               # Python dependencies (numpy, matplotlib)
+└── output/                        # the artwork (PNG, SVG) and the diagram
 ```
 
-## Utilisation
+## Usage
 
 ```bash
 pip install -r requirements.txt
 python3 la_beleco_savos_la_mondon.py
 ```
 
-## Exactitude mathématique
+## Mathematical accuracy
 
-Les 240 racines sont construites par leur définition exacte : 112 racines
-±eᵢ ± eⱼ et 128 racines (±½)⁸ avec un nombre pair de signes moins. Le code
-vérifie à chaque lancement, par `assert`, qu'il y a exactement 240 racines
-en dimension 8, toutes de norme² = 2.
+The 240 roots are built from their exact definition: 112 roots
+±eᵢ ± eⱼ and 128 roots (±½)⁸ with an even number of minus signs. At every
+run, the code checks with `assert` that there are exactly 240 roots in
+dimension 8, all with squared norm 2.
